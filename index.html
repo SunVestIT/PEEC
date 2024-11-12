@@ -3,97 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEEC Electric - Energy Efficiency Experts</title>
+    <title>PEEC Electric - Chicagoland Solar EPC Contractor</title>
     <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body Styling */
+        /* General styling */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.25;
         }
 
-        /* Container */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+        /* Top Bar */
+        .top-bar {
+            background-color: #123a3c;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .top-bar img {
+            height: 100%;
+            max-height: 60px; /* Ensures it fits within top-bar height */
+            margin-right: 10px;
+        }
+
+        .top-bar h1 {
+            font-size: 28px;
+            margin: 0;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('Solar Panels.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        /* Intro Section */
+        .intro {
+            padding: 40px 20px;
+            text-align: left;
+            line-height: 1.25;
+        }
+
+        .intro h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #123a3c;
+            line-height: 1.1; /* Reduces space within tagline */
+            padding: 0;
             text-align: center;
         }
 
-        /* Header */
-        header {
-            padding: 20px;
-            background-color: #7c9e4a;
-            color: #fff;
+        .intro p {
+            font-size: 18px;
+            line-height: 1.25; /* More spacious line height for paragraph */
+            padding-left: 10%;
+            padding-right: 10%;
         }
 
-        header h1 {
-            font-size: 2.5em;
-        }
-
-        /* Main Section */
-        .main-content {
+        /* Services Section */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
             padding: 40px 20px;
-            background-color: #fff;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f0f3df;
+            justify-content: center;
+            text-align: center;
         }
 
-        .main-content p {
-            font-size: 1.2em;
+        .services-header {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .services img {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            max-width: 250px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 1.25;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #123a3c;
+            color: white;
+        }
+
+        .contact h2 {
+            font-size: 24px;
             margin-bottom: 20px;
         }
 
-
-        .cta-button:hover {
-            background-color: #003366;
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 20px;
         }
 
-        /* Footer */
-        footer {
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-            margin-top: 20px;
-            font-size: 0.9em;
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
         }
 
-        footer p {
-            margin: 10px 0;
-        }
     </style>
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <img src="PEEC Logo.jpg" width="100" height="100">
-        <h1>Welcome to PEEC Electric</h1>
-        <p>Your Partner in Energy Efficiency Solutions</p>
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <img src="PEEC Logo.jpg" alt="PEEC Logo">
+        <h1>PEEC Electric</h1>
     </header>
 
-    <!-- Main Content Section -->
-    <div class="container">
-        <div class="main-content">
-            <h2>About PEEC Electric</h2>
-            <p>At PEEC Electric, we are dedicated to helping businesses and individuals achieve energy efficiency and sustainability through innovative solutions and expert guidance.</p>
-        </div>
-    </div>
+    <!-- Hero Section -->
+    <section class="hero"></section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>PEEC Electric &copy; 2024. All Rights Reserved.</p>
-        <p>Contact us at: <a href="mailto:notices@peecelectric.com" style="color: #ffa;">info@peecelectric.com</a></p>
-    </footer>
+    <!-- Intro Section -->
+    <section class="intro">
+        <h1>PEEC Electric: Chicagoland Solar EPC Contractor</h1>
+        <p>The team at PEEC Electric has deep experience in design, engineering, procurement, and construction of ground-mounted and rooftop solar projects. Headquartered in the Chicago area, PEEC is an Equity Eligible Contractor providing General Contracting to community solar or behind-the-meter solar installations.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="services-header">Our Services</div>
+        <img src="Solar Installers.jpg" alt="Solar Installation">
+        <div class="card">
+            <h3>Design/Engineering</h3>
+            <p>The PEEC team provides full-scope design and engineering services.</p>
+        </div>
+        <div class="card">
+            <h3>Procurement</h3>
+            <p>Our strong network of manufacturers and suppliers ensures low-cost and reliable delivery for key components.</p>
+        </div>
+        <div class="card">
+            <h3>Construct</h3>
+            <p>We have strong relationships with key subcontractors, including mechanical, electrical, civil construction, and commissioning.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us!</h2>
+        <p>PEEC works with select clients to deliver cost-effective EPC solutions. To learn more about our services, contact us:</p>
+        <a href="mailto:notices@peecelectric.com">notices@peecelectric.com</a>
+    </section>
 
 </body>
 </html>
